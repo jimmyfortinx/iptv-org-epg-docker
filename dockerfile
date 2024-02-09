@@ -1,9 +1,12 @@
-FROM --platform=linux/amd64 node:18
+FROM --platform=linux/amd64 nikolaik/python-nodejs:python3.11-nodejs18-alpine
+ENV NODE_ENV=production
+
+RUN apk add --no-cache git make g++ bash
 
 # Create app directory
 WORKDIR /usr/src/app
 
-RUN git clone --depth 1 -b tva-tv-passport git@github.com:jimmyfortinx/epg.git .
+RUN git clone --depth 1 -b tva-tv-passport https://github.com/jimmyfortinx/epg.git .
 
 RUN npm install -g concurrently
 RUN npm install
