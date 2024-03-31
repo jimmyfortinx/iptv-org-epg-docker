@@ -1,30 +1,26 @@
 const { execSync } = require("child_process");
 var cron = require("node-cron");
 
+const sites = ["tvhebdo.com", "tvpassport.com"];
+const languages = ["fr", "en"];
+
 const execute = () => {
   console.log("Grabbing epg...");
-  try {
-    execSync("SITE=tvhebdo.com npm run grab", {
-      stdio: "inherit",
-      cwd: "/usr/src/app",
-    });
-  } catch (error) {
-    console.error(
-      "something went wront while grabbing epg from tvhebdo",
-      error
-    );
-  }
 
-  try {
-    execSync("SITE=tvpassport.com npm run grab", {
-      stdio: "inherit",
-      cwd: "/usr/src/app",
-    });
-  } catch (error) {
-    console.error(
-      "something went wront while grabbing epg from tvpassport",
-      error
-    );
+  for (const site of sites) {
+    for (const language of languages) {
+      try {
+        execSync(`npm run grab -- --site ${site} --lang ${language}`, {
+          stdio: "inherit",
+          cwd: "/usr/src/app",
+        });
+      } catch (error) {
+        console.error(
+          `something went wront while grabbing epg from ${site} in ${language}`,
+          error
+        );
+      }
+    }
   }
 };
 
