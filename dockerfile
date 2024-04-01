@@ -17,6 +17,7 @@ RUN npm install node-cron
 # Bundle app source
 COPY run.sh run.sh
 COPY cron.js cron.js
+COPY tvpassport.com.channels.xml tvpassport.com.channels.xml
 
 EXPOSE 3000
 CMD [ "bash", "./run.sh" ]

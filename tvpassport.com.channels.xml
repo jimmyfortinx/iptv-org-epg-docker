@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HGTV.ca" site_id="hgtv-canada/167">HGTV Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-canada-dv/3962">HGTV Canada DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-canada-hd/8793">HGTV Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-canada-on-demand/4335">HGTV Canada On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa--eastern-feed/623">HGTV USA - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa--hawaii/6073">HGTV USA - Hawaii</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa--pacific-feed/1277">HGTV USA - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa-hd--eastern/3690">HGTV USA HD - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa-hd--pacific-feed/16232">HGTV USA HD - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoodNetwork.ca" site_id="food-network-canada/169">Food Network Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-canada-dv/8388">Food Network Canada DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-canada-hd/8389">Food Network Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-usa--eastern-feed/1054">Food Network USA - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-usa--pacific-feed/2032">Food Network USA - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-usa-hd--eastern-feed/3438">Food Network USA HD - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-usa-hd--pacific-feed/11581">Food Network USA HD - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn--east-hd/2820">Crave1 - East HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn--east/72">Crave1 - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn--west-hd/4806">Crave1 - West HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn--west/158">Crave1 - West</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-2--east-hd/7139">Crave2 - East HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-2--east/86">Crave2 - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-2--west-hd/8475">Crave2 - West HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-2--west/250">Crave2 - West</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-3--east-hd/7137">Crave3 - East HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-3--east/85">Crave3 - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-3--west-hd/10287">Crave3 - West HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-3--west/354">Crave3 - West</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-4-hd/10781">Crave4 HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tmn-4/320">Crave4</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo--eastern-feed/614">HBO - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo--pacific-feed/1472">HBO - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-2--eastern-feed-hd/6313">HBO 2 - Eastern Feed HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-2--eastern-feed/626">HBO 2 - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-2--pacific-feed-hd/6314">HBO 2 - Pacific Feed HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-2--pacific-feed/2205">HBO 2 - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada--west/292">HBO Canada 2 - West</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-1-hd/4230">HBO1 HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-1/84">HBO1</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-2-hd/6425">HBO West HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-2/6424">HBO West</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-east-on-demand-hd/9313">HBO Canada East On Demand HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-east-on-demand/8252">HBO Canada East On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-west-on-demand-hd/9314">HBO Canada West On Demand HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-west-on-demand/8442">HBO Canada West On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-comedy--east/629">HBO Comedy - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-comedy--pacific/2593">HBO Comedy - Pacific</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-comedy-hd--east/7105">HBO Comedy HD - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-comedy-hd--pacific/8469">HBO Comedy HD - Pacific</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-family--eastern-feed-hd/7104">HBO Family - Eastern Feed HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-family--eastern-feed/628">HBO Family - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-family--pacific-feed-hd/8250">HBO Family - Pacific Feed HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-family--pacific-feed/1216">HBO Family - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-hd--eastern-feed/627">HBO HD - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-hd--pacific-feed/2629">HBO HD - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-latino-hbo-7--eastern/631">HBO Latino (HBO 7) - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-latino-hbo-7--pacific/2579">HBO Latino (HBO 7) - Pacific</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-latino-hbo-7-hd--eastern/7096">HBO Latino (HBO 7) HD - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-latino-hbo-7-hd--pacific/8471">HBO Latino (HBO 7) HD - Pacific</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-on-demand-hd/8610">HBO On Demand HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-on-demand/3479">HBO On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-signature-hbo-3--eastern-hd/7099">HBO Signature (HBO 3) - Eastern HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-signature-hbo-3--eastern/1651">HBO Signature (HBO 3) - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-signature-hbo-3--pacific-hd/7711">HBO Signature (HBO 3) - Pacific HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-signature-hbo-3--pacific/2580">HBO Signature (HBO 3) - Pacific</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-zone--east/630">HBO Zone - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-zone--pacific/2594">HBO Zone - Pacific</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-zone-hd--east/7102">HBO Zone HD - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-zone-hd--pacific/8470">HBO Zone HD - Pacific</channel>
+</channels>

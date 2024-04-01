@@ -9,8 +9,8 @@ const sites = {
   },
   "tvpassport.com": {
     delay: 1000,
-    days: 3,
-    languages: ["fr", "en"],
+    days: 7,
+    languages: ["fr"],
   },
 };
 
@@ -34,6 +34,21 @@ const execute = () => {
         );
       }
     }
+  }
+
+  try {
+    execSync(
+      `npm run grab -- --channels tvpassport.com.channels.xml --lang en --delay 1000 --days 7`,
+      {
+        stdio: "inherit",
+        cwd: "/usr/src/app",
+      }
+    );
+  } catch (error) {
+    console.error(
+      `something went wront while grabbing epg from tvpassport.com in en`,
+      error
+    );
   }
 };
 
