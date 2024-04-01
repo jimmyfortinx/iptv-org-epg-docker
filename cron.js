@@ -28,9 +28,14 @@ const execute = () => {
         ? `--channels ${site}`
         : `--site ${site}`;
 
+      const output = `guides/${language}/${site.replace(
+        ".channels.xml",
+        ""
+      )}.xml`;
+
       try {
         execSync(
-          `npm run grab -- ${siteParameter} --lang ${language} --delay ${delay} --days ${days}`,
+          `npm run grab -- ${siteParameter} --lang ${language} --delay ${delay} --days ${days} --output ${output}`,
           {
             stdio: "inherit",
             cwd: "/usr/src/app",
