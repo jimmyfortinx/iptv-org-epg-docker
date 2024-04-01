@@ -12,6 +12,11 @@ const sites = {
     days: 7,
     languages: ["fr"],
   },
+  "tvpassport.com.channels.xml": {
+    delay: 1000,
+    days: 7,
+    languages: ["en"],
+  },
 };
 
 const execute = () => {
@@ -19,9 +24,13 @@ const execute = () => {
 
   for (const [site, { delay, days, languages }] of Object.entries(sites)) {
     for (const language of languages) {
+      const siteParameter = site.endsWith(".channels.xml")
+        ? `--channels ${site}`
+        : `--site ${site}`;
+
       try {
         execSync(
-          `npm run grab -- --site ${site} --lang ${language} --delay ${delay} --days ${days}`,
+          `npm run grab -- ${siteParameter} --lang ${language} --delay ${delay} --days ${days}`,
           {
             stdio: "inherit",
             cwd: "/usr/src/app",
@@ -34,21 +43,6 @@ const execute = () => {
         );
       }
     }
-  }
-
-  try {
-    execSync(
-      `npm run grab -- --channels tvpassport.com.channels.xml --lang en --delay 1000 --days 7`,
-      {
-        stdio: "inherit",
-        cwd: "/usr/src/app",
-      }
-    );
-  } catch (error) {
-    console.error(
-      `something went wront while grabbing epg from tvpassport.com in en`,
-      error
-    );
   }
 };
 
