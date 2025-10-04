@@ -6,7 +6,7 @@ RUN apk add --no-cache git make g++ bash
 # Create app directory
 WORKDIR /usr/src/app
 
-RUN git clone --depth 1 -b fix/french-channels-tvpassport https://github.com/jimmyfortinx/epg.git .
+RUN git clone --depth 1 -b fix/cookie+channels-regenerated https://github.com/jimmyfortinx/epg.git .
 
 RUN npm install -g concurrently
 RUN npm install
