@@ -2,6 +2,11 @@ const { execSync } = require("child_process");
 var cron = require("node-cron");
 
 const sites = {
+  "canalplus.com": {
+    delay: 0,
+    days: 7,
+    languages: ["fr"],
+  },
   "tvhebdo.com": {
     delay: 0,
     days: 7,
