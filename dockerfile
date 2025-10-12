@@ -11,13 +11,16 @@ RUN git clone --depth 1 -b fix/cookie+channels-regenerated https://github.com/ji
 RUN npm install -g concurrently
 RUN npm install
 RUN npm install node-cron
+RUN npm install xml-js
+RUN npm install dayjs
+RUN npm install glob
+RUN npm install execa
 # If you are building your code for production
 # RUN npm ci --omit=dev
 
 # Bundle app source
 COPY run.sh run.sh
 COPY cron.js cron.js
-COPY tvpassport.com.channels.xml tvpassport.com.channels.xml
 
 EXPOSE 3000
 CMD [ "bash", "./run.sh" ]

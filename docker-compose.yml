@@ -3,3 +3,5 @@ services:
     image: "iptvorgepgdocker:latest"
     ports:
       - "9000:3000"
+    volumes:
+      - ./guides:/usr/src/app/guides
