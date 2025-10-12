@@ -92,6 +92,7 @@ const sites = {
       "FR1#Discovery.Channel.(F).fr",
       "FR1#Discovery.Channel.fr",
       "FR1#CNews.fr",
+      "FR1#LCI.fr",
     ],
   },
   "canalplus.com": {
@@ -99,7 +100,7 @@ const sites = {
     delay: 0,
     days: 7,
     languages: ["fr"],
-    filter: ["#545", "#1094", "#26", "#633", "#174", "#480"],
+    filter: ["#545", "#1094", "#26", "#633", "#174", "#480", "#553"],
   },
   "tvhebdo.com": {
     delay: 0,
@@ -118,22 +119,6 @@ const sites = {
       return tvpassportEnglishChannels.has(site);
     },
   },
-};
-
-const findSiteFile = async (site, language) => {
-  const pathWithLanguage = `sites/${site}/${site}_${language}.channels.xml`;
-
-  if (existsSync(pathWithLanguage)) {
-    return pathWithLanguage;
-  }
-
-  const fallback = `sites/${site}/${site}.channels.xml`;
-
-  if (existsSync(fallback)) {
-    return fallback;
-  }
-
-  throw new Error(`Site file not found for ${site} in ${language}`);
 };
 
 const filterChannels = async () => {
