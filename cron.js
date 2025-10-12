@@ -5,6 +5,20 @@ const { existsSync } = require("fs");
 const { rmdir, readFile, writeFile, mkdir } = require("fs/promises");
 const xmlJs = require("xml-js");
 const path = require("path");
+const express = require("express");
+const handler = require("serve-handler");
+
+const app = express();
+
+app.get("/health", (req, res) => {
+  res.send("OK");
+});
+
+app.use((req, res) => handler(req, res, { public: "guides" }));
+
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
 
 const tvpassportEnglishChannels = new Set([
   "hgtv-canada/167",
